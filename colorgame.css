@@ -1,0 +1,71 @@
+body {
+	background-color: black;
+	color:white;
+	text-align: center;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.squares {
+	width: 30%;
+	background-color: purple;
+	float: left;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	border-radius: 20px;
+	transition: background 0.4s;
+}
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+#nav li {
+	display: inline-block;
+	margin-left: 15.1%;
+	margin-right: 15.1%;
+}
+#level button{
+	margin:0;
+}
+#nav {
+	background-color: white;
+}
+.selected {
+	background-color: blue;
+	color: white; 
+	border:1px solid blue;
+	margin: 0;
+	width: 50px;
+	height: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+.unselected {
+	background-color: white;
+	color: blue; 
+	border:1px solid white;
+	margin: 0;
+	height: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+#top {
+	width: 100%;
+	background-color: yellow;
+	padding: 0;
+	margin: 0;
+	height: 10%;
+	color: red;
+}
+.zero {
+	margin: 0;
+	margin-bottom: 2%;
+}
+.result {
+	padding-bottom:5%;
+	margin-left: auto;
+	margin-top: 30%;
+	margin-right: auto;
+	width: 5%; 
+	color: green;
+	font-size: 200%;
+}

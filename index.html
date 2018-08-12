@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorgame.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+	<div id="top">
+		<br>
+		<h1 class="zero">Color Guessing Game</h1>
+		<h3 class="zero">Find color <span id="color"><span></h3>
+	</div>
+	<div id="nav">
+		<li><button class="unselected" id="playagain">Play Again</button></li>
+		<li><div id="level">
+				<button class="selected" id="easy">Easy</button>
+				<button class="unselected" id="hard">Hard</button>
+			</div>
+		</li>
+	</div>
+	<br>
+	<div id="container">
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+		<div class="squares"></div>
+	</div>
+	<div class="result">
+		<span id="res"></span>
+	</div>
+</body>
+<script type="text/javascript" src="colorgame.js"></script>
+</html>
