@@ -26,7 +26,7 @@ ans.textContent= answer;
 for(var i=0;i<colors.length;i++){
 	squares[i].style.background=colors[i];
 }
-for(var i=0;i<6;i++)
+for(var i=0;i<12;i++)
 {
 	squares[i].addEventListener("click",function(){
 		if(this.style.background===answer)
@@ -35,7 +35,7 @@ for(var i=0;i<6;i++)
 			if(easyv===true)
 				size=3;
 			else
-				size=6;
+				size=12;
 			for(var j=0;j<size;j++)
 			{
 				squares[j].style.background=answer;
@@ -52,7 +52,7 @@ again.addEventListener("click",function(){
 	if(easyv===true)
 		length=3;
 	else
-		length=6;
+		length=12;
 	newColors(length);
 	answer=picColor(length);
 	ans.textContent=answer;
